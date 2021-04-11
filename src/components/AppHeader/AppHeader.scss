@@ -1,0 +1,56 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.error-icon {
+    color: red;
+}
+.app-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    &__title {
+        display: flex;
+        margin-right: 1rem;;
+    }
+    &__titles {
+        align-items: baseline;
+    }
+    &__avatar {
+        align-items: center;
+    }
+
+    &__greet-name {
+        display: flex;
+        align-items: baseline;
+        margin: 0 0.5rem;
+    }
+    &__greet {
+        color: slategray;
+        margin-right: 0.5rem;
+    }
+    &__controls {
+        align-items: center;
+        &__item {
+            padding: 0 1.5rem;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        &__titles {
+            align-items: center;
+        }
+    
+        &__greet-name {
+            flex-direction: column;
+            h1 {
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+}
+
+

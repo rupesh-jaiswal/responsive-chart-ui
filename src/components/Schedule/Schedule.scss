@@ -1,0 +1,37 @@
+.schedule {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 20px;
+    &__container {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    &__info {
+
+        &__today {
+            color:slategray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        &__group-name {
+            background-color:orangered !important;
+        }
+
+        &__work-choice {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+
+    &__change-btn {
+        color: white !important;
+        background-color:rgb(76, 175, 80) !important;
+        border-radius: 15px !important;
+    }
+    
+}

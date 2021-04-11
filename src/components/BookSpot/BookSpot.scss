@@ -1,0 +1,21 @@
+.book-spot {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 1rem 0;
+    &__title {
+        color:slategray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+
+    &__checkin-btn {
+        color: white !important;
+        background-color:rgb(76, 175, 80) !important;
+        border-radius: 15px !important;
+    }
+}

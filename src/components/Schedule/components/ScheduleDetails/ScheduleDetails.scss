@@ -1,0 +1,49 @@
+.schedule-details {
+    &__title {
+        display: flex;
+        align-items: center;        
+        span {
+            color:slategray;
+            font-weight: bold;
+        }
+    }
+    &__list {
+        
+    }
+    &__list-item {
+    }
+    &__list-item-title {
+        color:slategray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+        font-size: 0.9rem; 
+    }
+    &__list-item-body {
+        margin-bottom: 1rem;
+    }
+    &__expanded-content {
+        animation: 2s ease-in;
+    }
+    &__amenities-list__item {
+        display: flex;
+        padding: 0.5rem 0;
+        align-items: center;
+        svg {
+            padding: 0.5rem;
+            background-color: lightgray;
+            border-radius: 10px;
+            margin-right: 0.5rem;
+        }
+        &__name {
+            color: lightslategray;
+        }
+    }
+}
+
+.no-list-style {
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
